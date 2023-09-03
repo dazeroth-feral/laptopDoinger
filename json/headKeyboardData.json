@@ -1,0 +1,10 @@
+{
+    "launchWow": {
+        "text": "Запустити ⚔️ WoW Legion 🛡️",
+        "callback_data": "C:/wow/felsong-64.exe"
+    },
+    "launchVSCode": {
+        "text": "Запустити 🧑‍💻 VS Code 💻",
+        "callback_data": "C:/Users/dazer/AppData/Local/Programs/Microsoft VS Code/Code.exe"
+    }
+}
