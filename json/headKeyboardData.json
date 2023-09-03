@@ -1,10 +1,50 @@
 {
     "launchWow": {
-        "text": "Запустити ⚔️ WoW Legion 🛡️",
-        "callback_data": "C:/wow/felsong-64.exe"
+        "button": {
+            "text": "Запустити WoW Legion ⚔️",
+            "callback_data": "C:/wow/felsong-64.exe"
+        },
+        "needTo": {
+            "spawn": true
+        }
+    },
+    "enterToWowPassword": {
+        "button": {
+            "text": "Ввести пароль в WoW Legion 🔑",
+            "callback_data": "enterToWowPassword"
+        },
+        "needTo": {
+            "robotActions": {
+                "enterPassword": true
+            }
+        }
+    },
+    "enterToWowWorld":{
+        "button": {
+            "text": "Ввійти в світ/на персонажа 🧑‍💻",
+            "callback_data": "enterToWowWorld"
+        },
+        "needTo": {
+            "robotActions": {
+                "keyTap": {
+                    "key": "enter"
+                }
+            }
+        }
     },
     "launchVSCode": {
-        "text": "Запустити 🧑‍💻 VS Code 💻",
-        "callback_data": "C:/Users/dazer/AppData/Local/Programs/Microsoft VS Code/Code.exe"
+        "button": {
+            "text": "Запустити VS Code 💻",
+            "callback_data": "C:/Users/dazer/AppData/Local/Programs/Microsoft VS Code/Code.exe"
+        },
+        "needTo": {
+            "spawn": true
+        }
+    },
+    "screenshot": {
+        "button": {
+            "text": "Зробити фото екрану 📷",
+            "callback_data": "screenshot"
+        }
     }
 }
